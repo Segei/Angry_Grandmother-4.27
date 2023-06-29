@@ -1,0 +1,606 @@
+Begin Object Class=/Script/Engine.Material Name="M_Weapon_Master_USE"
+   Begin Object Class=/Script/Engine.MaterialEditorOnlyData Name="M_Weapon_Master_USEEditorOnlyData"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionClamp Name="MaterialExpressionClamp_16"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionClamp Name="MaterialExpressionClamp_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionClamp Name="MaterialExpressionClamp_24"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComponentMask Name="MaterialExpressionComponentMask_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionDivide Name="MaterialExpressionDivide_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFresnel Name="MaterialExpressionFresnel_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_7"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionOneMinus Name="MaterialExpressionOneMinus_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_15"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_7"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitchParameter Name="MaterialExpressionStaticSwitchParameter_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitchParameter Name="MaterialExpressionStaticSwitchParameter_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitchParameter Name="MaterialExpressionStaticSwitchParameter_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitchParameter Name="MaterialExpressionStaticSwitchParameter_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitchParameter Name="MaterialExpressionStaticSwitchParameter_7"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSubtract Name="MaterialExpressionSubtract_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureCoordinate Name="MaterialExpressionTextureCoordinate_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSampleParameter2D Name="MaterialExpressionTextureSampleParameter2D_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSampleParameter2D Name="MaterialExpressionTextureSampleParameter2D_10"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSampleParameter2D Name="MaterialExpressionTextureSampleParameter2D_11"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSampleParameter2D Name="MaterialExpressionTextureSampleParameter2D_33"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSampleParameter2D Name="MaterialExpressionTextureSampleParameter2D_34"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSampleParameter2D Name="MaterialExpressionTextureSampleParameter2D_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSampleParameter2D Name="MaterialExpressionTextureSampleParameter2D_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSampleParameter2D Name="MaterialExpressionTextureSampleParameter2D_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSampleParameter2D Name="MaterialExpressionTextureSampleParameter2D_8"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_4"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="M_Weapon_Master_USEEditorOnlyData"
+      BaseColor=(Expression=/Script/Engine.MaterialExpressionStaticSwitchParameter'"M_Weapon_Master_USE:MaterialExpressionStaticSwitchParameter_3"')
+      Metallic=(Expression=/Script/Engine.MaterialExpressionStaticSwitchParameter'"M_Weapon_Master_USE:MaterialExpressionStaticSwitchParameter_6"')
+      Specular=(Expression=/Script/Engine.MaterialExpressionScalarParameter'"M_Weapon_Master_USE:MaterialExpressionScalarParameter_0"')
+      Roughness=(Expression=/Script/Engine.MaterialExpressionStaticSwitchParameter'"M_Weapon_Master_USE:MaterialExpressionStaticSwitchParameter_7"')
+      Normal=(Expression=/Script/Engine.MaterialExpressionTextureSampleParameter2D'"M_Weapon_Master_USE:MaterialExpressionTextureSampleParameter2D_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      OpacityMask=(Expression=/Script/Engine.MaterialExpressionTextureSampleParameter2D'"M_Weapon_Master_USE:MaterialExpressionTextureSampleParameter2D_33"',OutputIndex=4,Mask=1,MaskA=1)
+      AmbientOcclusion=(Expression=/Script/Engine.MaterialExpressionTextureSampleParameter2D'"M_Weapon_Master_USE:MaterialExpressionTextureSampleParameter2D_11"',OutputIndex=3,Mask=1,MaskB=1)
+      ExpressionCollection=(Expressions=(/Script/Engine.MaterialExpressionStaticSwitchParameter'"M_Weapon_Master_USE:MaterialExpressionStaticSwitchParameter_3"',/Script/Engine.MaterialExpressionStaticSwitchParameter'"M_Weapon_Master_USE:MaterialExpressionStaticSwitchParameter_6"',/Script/Engine.MaterialExpressionScalarParameter'"M_Weapon_Master_USE:MaterialExpressionScalarParameter_0"',/Script/Engine.MaterialExpressionStaticSwitchParameter'"M_Weapon_Master_USE:MaterialExpressionStaticSwitchParameter_7"',/Script/Engine.MaterialExpressionTextureSampleParameter2D'"M_Weapon_Master_USE:MaterialExpressionTextureSampleParameter2D_0"',/Script/Engine.MaterialExpressionTextureSampleParameter2D'"M_Weapon_Master_USE:MaterialExpressionTextureSampleParameter2D_33"',/Script/Engine.MaterialExpressionTextureSampleParameter2D'"M_Weapon_Master_USE:MaterialExpressionTextureSampleParameter2D_11"',/Script/Engine.MaterialExpressionStaticSwitchParameter'"M_Weapon_Master_USE:MaterialExpressionStaticSwitchParameter_5"',/Script/Engine.MaterialExpressionLinearInterpolate'"M_Weapon_Master_USE:MaterialExpressionLinearInterpolate_2"',/Script/Engine.MaterialExpressionClamp'"M_Weapon_Master_USE:MaterialExpressionClamp_24"',/Script/Engine.MaterialExpressionClamp'"M_Weapon_Master_USE:MaterialExpressionClamp_16"',/Script/Engine.MaterialExpressionScalarParameter'"M_Weapon_Master_USE:MaterialExpressionScalarParameter_2"',/Script/Engine.MaterialExpressionTextureSampleParameter2D'"M_Weapon_Master_USE:MaterialExpressionTextureSampleParameter2D_4"',/Script/Engine.MaterialExpressionLinearInterpolate'"M_Weapon_Master_USE:MaterialExpressionLinearInterpolate_5"',/Script/Engine.MaterialExpressionScalarParameter'"M_Weapon_Master_USE:MaterialExpressionScalarParameter_15"',/Script/Engine.MaterialExpressionTextureSampleParameter2D'"M_Weapon_Master_USE:MaterialExpressionTextureSampleParameter2D_5"',/Script/Engine.MaterialExpressionLinearInterpolate'"M_Weapon_Master_USE:MaterialExpressionLinearInterpolate_7"',/Script/Engine.MaterialExpressionConstant'"M_Weapon_Master_USE:MaterialExpressionConstant_4"',/Script/Engine.MaterialExpressionTextureSampleParameter2D'"M_Weapon_Master_USE:MaterialExpressionTextureSampleParameter2D_34"',/Script/Engine.MaterialExpressionVectorParameter'"M_Weapon_Master_USE:MaterialExpressionVectorParameter_0"',/Script/Engine.MaterialExpressionTextureCoordinate'"M_Weapon_Master_USE:MaterialExpressionTextureCoordinate_0"',/Script/Engine.MaterialExpressionMultiply'"M_Weapon_Master_USE:MaterialExpressionMultiply_0"',/Script/Engine.MaterialExpressionComponentMask'"M_Weapon_Master_USE:MaterialExpressionComponentMask_0"',/Script/Engine.MaterialExpressionStaticSwitchParameter'"M_Weapon_Master_USE:MaterialExpressionStaticSwitchParameter_1"',/Script/Engine.MaterialExpressionScalarParameter'"M_Weapon_Master_USE:MaterialExpressionScalarParameter_1"',/Script/Engine.MaterialExpressionTextureSampleParameter2D'"M_Weapon_Master_USE:MaterialExpressionTextureSampleParameter2D_10"',/Script/Engine.MaterialExpressionTextureSampleParameter2D'"M_Weapon_Master_USE:MaterialExpressionTextureSampleParameter2D_8"',/Script/Engine.MaterialExpressionLinearInterpolate'"M_Weapon_Master_USE:MaterialExpressionLinearInterpolate_3"',/Script/Engine.MaterialExpressionFresnel'"M_Weapon_Master_USE:MaterialExpressionFresnel_3"',/Script/Engine.MaterialExpressionScalarParameter'"M_Weapon_Master_USE:MaterialExpressionScalarParameter_6"',/Script/Engine.MaterialExpressionScalarParameter'"M_Weapon_Master_USE:MaterialExpressionScalarParameter_7"',/Script/Engine.MaterialExpressionMultiply'"M_Weapon_Master_USE:MaterialExpressionMultiply_3"',/Script/Engine.MaterialExpressionVectorParameter'"M_Weapon_Master_USE:MaterialExpressionVectorParameter_3"',/Script/Engine.MaterialExpressionMultiply'"M_Weapon_Master_USE:MaterialExpressionMultiply_5"',/Script/Engine.MaterialExpressionVectorParameter'"M_Weapon_Master_USE:MaterialExpressionVectorParameter_4"',/Script/Engine.MaterialExpressionTextureSampleParameter2D'"M_Weapon_Master_USE:MaterialExpressionTextureSampleParameter2D_6"',/Script/Engine.MaterialExpressionSubtract'"M_Weapon_Master_USE:MaterialExpressionSubtract_0"',/Script/Engine.MaterialExpressionOneMinus'"M_Weapon_Master_USE:MaterialExpressionOneMinus_0"',/Script/Engine.MaterialExpressionDivide'"M_Weapon_Master_USE:MaterialExpressionDivide_0"',/Script/Engine.MaterialExpressionClamp'"M_Weapon_Master_USE:MaterialExpressionClamp_2"',/Script/Engine.MaterialExpressionMultiply'"M_Weapon_Master_USE:MaterialExpressionMultiply_1"',/Script/Engine.MaterialExpressionScalarParameter'"M_Weapon_Master_USE:MaterialExpressionScalarParameter_4"'),EditorComments=(/Script/Engine.MaterialExpressionComment'"M_Weapon_Master_USE:MaterialExpressionComment_0"',/Script/Engine.MaterialExpressionComment'"M_Weapon_Master_USE:MaterialExpressionComment_3"',/Script/Engine.MaterialExpressionComment'"M_Weapon_Master_USE:MaterialExpressionComment_5"',/Script/Engine.MaterialExpressionComment'"M_Weapon_Master_USE:MaterialExpressionComment_6"',/Script/Engine.MaterialExpressionComment'"M_Weapon_Master_USE:MaterialExpressionComment_1"',/Script/Engine.MaterialExpressionComment'"M_Weapon_Master_USE:MaterialExpressionComment_4"',/Script/Engine.MaterialExpressionComment'"M_Weapon_Master_USE:MaterialExpressionComment_2"'))
+   End Object
+   Begin Object Name="MaterialExpressionClamp_16"
+      Input=(Expression=/Script/Engine.MaterialExpressionLinearInterpolate'"M_Weapon_Master_USE:MaterialExpressionLinearInterpolate_5"')
+      MaterialExpressionEditorX=-2254
+      MaterialExpressionEditorY=-910
+      MaterialExpressionGuid=2E256A794BBEE146B4734385B4D94BC9
+      Material=/Script/Engine.Material'"M_Weapon_Master_USE"'
+   End Object
+   Begin Object Name="MaterialExpressionClamp_2"
+      Input=(Expression=/Script/Engine.MaterialExpressionDivide'"M_Weapon_Master_USE:MaterialExpressionDivide_0"')
+      MaterialExpressionEditorX=-2432
+      MaterialExpressionEditorY=-1536
+      MaterialExpressionGuid=2E256A794BBEE146B4734385B4D94BC9
+      Material=/Script/Engine.Material'"M_Weapon_Master_USE"'
+   End Object
+   Begin Object Name="MaterialExpressionClamp_24"
+      Input=(Expression=/Script/Engine.MaterialExpressionLinearInterpolate'"M_Weapon_Master_USE:MaterialExpressionLinearInterpolate_7"')
+      MaterialExpressionEditorX=-2334
+      MaterialExpressionEditorY=-174
+      MaterialExpressionGuid=2E256A794BBEE146B4734385B4D94BC9
+      Material=/Script/Engine.Material'"M_Weapon_Master_USE"'
+   End Object
+   Begin Object Name="MaterialExpressionComment_0"
+      SizeX=1472
+      SizeY=1216
+      Text="Albedo"
+      MaterialExpressionEditorX=-3040
+      MaterialExpressionEditorY=-2448
+      MaterialExpressionGuid=77D9F6AC4ABF553C07885DADB515184D
+      Material=/Script/Engine.Material'"M_Weapon_Master_USE"'
+   End Object
+   Begin Object Name="MaterialExpressionComment_1"
+      SizeX=496
+      SizeY=320
+      Text="UV_Scale"
+      MaterialExpressionEditorX=-3682
+      MaterialExpressionEditorY=-2050
+      MaterialExpressionGuid=D6C90DA24327EA1144BCE9AD6B5E683F
+      Material=/Script/Engine.Material'"M_Weapon_Master_USE"'
+   End Object
+   Begin Object Name="MaterialExpressionComment_2"
+      SizeX=982
+      SizeY=371
+      Text="Color/PatternBlend"
+      MaterialExpressionEditorX=-2994
+      MaterialExpressionEditorY=-1666
+      MaterialExpressionGuid=BF8578004D9E0A34E660B99301C62D14
+      Material=/Script/Engine.Material'"M_Weapon_Master_USE"'
+   End Object
+   Begin Object Name="MaterialExpressionComment_3"
+      SizeX=1018
+      SizeY=583
+      Text="Roughness"
+      MaterialExpressionEditorX=-3040
+      MaterialExpressionEditorY=-1056
+      MaterialExpressionGuid=9C5D34D54D906CF6C988808F6F44AE41
+      Material=/Script/Engine.Material'"M_Weapon_Master_USE"'
+   End Object
+   Begin Object Name="MaterialExpressionComment_4"
+      SizeX=546
+      SizeY=462
+      Text="Horizon Smoothing"
+      MaterialExpressionEditorX=-1008
+      MaterialExpressionEditorY=-512
+      MaterialExpressionGuid=7AE565CF4464087EBEA8A4951E5796F3
+      Material=/Script/Engine.Material'"M_Weapon_Master_USE"'
+   End Object
+   Begin Object Name="MaterialExpressionComment_5"
+      SizeX=1088
+      SizeY=816
+      Text="Metallic"
+      MaterialExpressionEditorX=-3040
+      MaterialExpressionEditorY=-320
+      MaterialExpressionGuid=229AE3A545BDC0060B01618AF7FA303B
+      Material=/Script/Engine.Material'"M_Weapon_Master_USE"'
+   End Object
+   Begin Object Name="MaterialExpressionComment_6"
+      SizeX=672
+      SizeY=736
+      Text="UsePattern? SWITCH"
+      MaterialExpressionEditorX=-1647
+      MaterialExpressionEditorY=-50
+      MaterialExpressionGuid=5F3556BE4B188CEAC8AEAEBC0A82D927
+      Material=/Script/Engine.Material'"M_Weapon_Master_USE"'
+   End Object
+   Begin Object Name="MaterialExpressionComponentMask_0"
+      Input=(Expression=/Script/Engine.MaterialExpressionScalarParameter'"M_Weapon_Master_USE:MaterialExpressionScalarParameter_1"')
+      R=True
+      G=True
+      MaterialExpressionEditorX=-3360
+      MaterialExpressionEditorY=-1840
+      MaterialExpressionGuid=C1F2F04041CAB089CACEC98CA39303B0
+      Material=/Script/Engine.Material'"M_Weapon_Master_USE"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_4"
+      MaterialExpressionEditorX=-2608
+      MaterialExpressionEditorY=-80
+      MaterialExpressionGuid=681114AA438AFDF84230A389D54E2494
+      Material=/Script/Engine.Material'"M_Weapon_Master_USE"'
+   End Object
+   Begin Object Name="MaterialExpressionDivide_0"
+      A=(Expression=/Script/Engine.MaterialExpressionSubtract'"M_Weapon_Master_USE:MaterialExpressionSubtract_0"')
+      B=(Expression=/Script/Engine.MaterialExpressionScalarParameter'"M_Weapon_Master_USE:MaterialExpressionScalarParameter_4"')
+      MaterialExpressionEditorX=-2542
+      MaterialExpressionEditorY=-1530
+      MaterialExpressionGuid=425AF9F549BEDE2AE532A4A776FF9674
+      Material=/Script/Engine.Material'"M_Weapon_Master_USE"'
+   End Object
+   Begin Object Name="MaterialExpressionFresnel_3"
+      ExponentIn=(Expression=/Script/Engine.MaterialExpressionScalarParameter'"M_Weapon_Master_USE:MaterialExpressionScalarParameter_6"')
+      Exponent=4.000000
+      MaterialExpressionEditorX=-958
+      MaterialExpressionEditorY=-206
+      MaterialExpressionGuid=42A47B2549D7201F8B6240BB46812E95
+      Material=/Script/Engine.Material'"M_Weapon_Master_USE"'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_2"
+      A=(Expression=/Script/Engine.MaterialExpressionMultiply'"M_Weapon_Master_USE:MaterialExpressionMultiply_3"')
+      B=(Expression=/Script/Engine.MaterialExpressionStaticSwitchParameter'"M_Weapon_Master_USE:MaterialExpressionStaticSwitchParameter_1"')
+      Alpha=(Expression=/Script/Engine.MaterialExpressionMultiply'"M_Weapon_Master_USE:MaterialExpressionMultiply_1"')
+      MaterialExpressionEditorX=-2448
+      MaterialExpressionEditorY=-2080
+      MaterialExpressionGuid=479FE7ED4C4CE1F7B294FC9B15BA316A
+      Material=/Script/Engine.Material'"M_Weapon_Master_USE"'
+      bCollapsed=False
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_3"
+      A=(Expression=/Script/Engine.MaterialExpressionStaticSwitchParameter'"M_Weapon_Master_USE:MaterialExpressionStaticSwitchParameter_5"')
+      B=(Expression=/Script/Engine.MaterialExpressionScalarParameter'"M_Weapon_Master_USE:MaterialExpressionScalarParameter_7"')
+      Alpha=(Expression=/Script/Engine.MaterialExpressionFresnel'"M_Weapon_Master_USE:MaterialExpressionFresnel_3"')
+      MaterialExpressionEditorX=-686
+      MaterialExpressionEditorY=-366
+      MaterialExpressionGuid=CC0503C645035F7FA714CBAA621837C5
+      Material=/Script/Engine.Material'"M_Weapon_Master_USE"'
+      bCollapsed=False
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_5"
+      A=(Expression=/Script/Engine.MaterialExpressionTextureSampleParameter2D'"M_Weapon_Master_USE:MaterialExpressionTextureSampleParameter2D_8"',OutputIndex=1,Mask=1,MaskR=1)
+      B=(Expression=/Script/Engine.MaterialExpressionScalarParameter'"M_Weapon_Master_USE:MaterialExpressionScalarParameter_15"')
+      Alpha=(Expression=/Script/Engine.MaterialExpressionMultiply'"M_Weapon_Master_USE:MaterialExpressionMultiply_1"')
+      MaterialExpressionEditorX=-2462
+      MaterialExpressionEditorY=-926
+      MaterialExpressionGuid=479FE7ED4C4CE1F7B294FC9B15BA316A
+      Material=/Script/Engine.Material'"M_Weapon_Master_USE"'
+      bCollapsed=False
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_7"
+      A=(Expression=/Script/Engine.MaterialExpressionTextureSampleParameter2D'"M_Weapon_Master_USE:MaterialExpressionTextureSampleParameter2D_5"',OutputIndex=2,Mask=1,MaskG=1)
+      B=(Expression=/Script/Engine.MaterialExpressionConstant'"M_Weapon_Master_USE:MaterialExpressionConstant_4"')
+      Alpha=(Expression=/Script/Engine.MaterialExpressionMultiply'"M_Weapon_Master_USE:MaterialExpressionMultiply_1"')
+      MaterialExpressionEditorX=-2478
+      MaterialExpressionEditorY=-174
+      MaterialExpressionGuid=0746646E4A5EB300E7095DBBAC4E690C
+      Material=/Script/Engine.Material'"M_Weapon_Master_USE"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_0"
+      A=(Expression=/Script/Engine.MaterialExpressionTextureCoordinate'"M_Weapon_Master_USE:MaterialExpressionTextureCoordinate_0"')
+      B=(Expression=/Script/Engine.MaterialExpressionComponentMask'"M_Weapon_Master_USE:MaterialExpressionComponentMask_0"')
+      MaterialExpressionEditorX=-3328
+      MaterialExpressionEditorY=-2000
+      MaterialExpressionGuid=421BAF784DC68E1B06BA6EA8D608305D
+      Material=/Script/Engine.Material'"M_Weapon_Master_USE"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_1"
+      A=(Expression=/Script/Engine.MaterialExpressionTextureSampleParameter2D'"M_Weapon_Master_USE:MaterialExpressionTextureSampleParameter2D_6"',OutputIndex=4,Mask=1,MaskA=1)
+      B=(Expression=/Script/Engine.MaterialExpressionClamp'"M_Weapon_Master_USE:MaterialExpressionClamp_2"')
+      MaterialExpressionEditorX=-2144
+      MaterialExpressionEditorY=-1584
+      MaterialExpressionGuid=D021518E4D9C503B3FAB03A79E1DD233
+      Material=/Script/Engine.Material'"M_Weapon_Master_USE"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_3"
+      A=(Expression=/Script/Engine.MaterialExpressionVectorParameter'"M_Weapon_Master_USE:MaterialExpressionVectorParameter_3"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=/Script/Engine.MaterialExpressionTextureSampleParameter2D'"M_Weapon_Master_USE:MaterialExpressionTextureSampleParameter2D_33"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      MaterialExpressionEditorX=-2533
+      MaterialExpressionEditorY=-2259
+      MaterialExpressionGuid=04E9CB7744758B8E45E367A01A555823
+      Material=/Script/Engine.Material'"M_Weapon_Master_USE"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_5"
+      A=(Expression=/Script/Engine.MaterialExpressionVectorParameter'"M_Weapon_Master_USE:MaterialExpressionVectorParameter_4"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=/Script/Engine.MaterialExpressionTextureSampleParameter2D'"M_Weapon_Master_USE:MaterialExpressionTextureSampleParameter2D_34"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      MaterialExpressionEditorX=-1440
+      MaterialExpressionEditorY=304
+      MaterialExpressionGuid=04E9CB7744758B8E45E367A01A555823
+      Material=/Script/Engine.Material'"M_Weapon_Master_USE"'
+   End Object
+   Begin Object Name="MaterialExpressionOneMinus_0"
+      Input=(Expression=/Script/Engine.MaterialExpressionTextureSampleParameter2D'"M_Weapon_Master_USE:MaterialExpressionTextureSampleParameter2D_6"',OutputIndex=4,Mask=1,MaskA=1)
+      MaterialExpressionEditorX=-2785
+      MaterialExpressionEditorY=-1506
+      MaterialExpressionGuid=DEF280E44E651420C1C0AB8424C0999B
+      Material=/Script/Engine.Material'"M_Weapon_Master_USE"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_0"
+      DefaultValue=0.500000
+      ParameterName="SpecularIntensity"
+      ExpressionGUID=D10E0D7C455B4847817F11A4C618D74A
+      Group="Parameters"
+      MaterialExpressionEditorX=-768
+      MaterialExpressionEditorY=1008
+      MaterialExpressionGuid=BCA8097E486D023A75AB368E8C828A75
+      Material=/Script/Engine.Material'"M_Weapon_Master_USE"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_1"
+      DefaultValue=1.000000
+      ParameterName="Pattern_Tiling"
+      ExpressionGUID=498220B741918EEBD995FB94A90F43E1
+      Group="Pattern/Color"
+      MaterialExpressionEditorX=-3634
+      MaterialExpressionEditorY=-1826
+      MaterialExpressionGuid=00C685AC484C60266CE1CE9C2E77E4F5
+      Material=/Script/Engine.Material'"M_Weapon_Master_USE"'
+      Desc="This parameter lets you adjust the tileing of your selected pattern."
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_15"
+      DefaultValue=0.450000
+      SliderMax=1.000000
+      ParameterName="Color/Pattern Roughness"
+      ExpressionGUID=230D6F664C31FC88EFFD18AB4A1493C9
+      Group="Pattern/Color"
+      MaterialExpressionEditorX=-2752
+      MaterialExpressionEditorY=-800
+      MaterialExpressionGuid=77B00A974F75E28F564A3E869731CEC9
+      Material=/Script/Engine.Material'"M_Weapon_Master_USE"'
+      Desc="Roughness Value of the selected Color/Pattern"
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_2"
+      DefaultValue=1.000000
+      SliderMax=1.000000
+      ParameterName="PatternBlend"
+      ExpressionGUID=7590EAD348B0BAF6982E4890EEF94D95
+      Group="Pattern/Color"
+      MaterialExpressionEditorX=-2944
+      MaterialExpressionEditorY=-1616
+      MaterialExpressionGuid=6A2CCCBC49D28AE83EC35F806E28B427
+      Material=/Script/Engine.Material'"M_Weapon_Master_USE"'
+      Desc="Use this to control the power of the Color/Pattern."
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_4"
+      DefaultValue=0.010000
+      SliderMin=0.010000
+      SliderMax=1.000000
+      ParameterName="PatternBlend_Sharpness"
+      ExpressionGUID=2DFC94104627B8E4D5FAA28DE82A81BD
+      Group="Pattern/Color"
+      MaterialExpressionEditorX=-2672
+      MaterialExpressionEditorY=-1424
+      MaterialExpressionGuid=6D8C9B264506314A7AFBC282BFEA0E92
+      Material=/Script/Engine.Material'"M_Weapon_Master_USE"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_6"
+      DefaultValue=4.000000
+      ParameterName="Horizon_Smoothing_Exponent"
+      ExpressionGUID=7A1DB9EF4ACA3FA526B718B557DA4309
+      Group="Parameters"
+      MaterialExpressionEditorX=-976
+      MaterialExpressionEditorY=-304
+      MaterialExpressionGuid=919D8EBB449BCA8DBD89AA894937E9AC
+      Material=/Script/Engine.Material'"M_Weapon_Master_USE"'
+      Desc="This controls the power of the horizon smoothing."
+      bCommentBubbleVisible=True
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_7"
+      DefaultValue=0.500000
+      ParameterName="Horizon_Roughness"
+      ExpressionGUID=84215F5041E864E58A4448BD24D6D126
+      Group="Parameters"
+      MaterialExpressionEditorX=-976
+      MaterialExpressionEditorY=-416
+      MaterialExpressionGuid=0EECED4E4981ABDD8DCFEDA619D7320B
+      Material=/Script/Engine.Material'"M_Weapon_Master_USE"'
+      Desc="Controls how rough the Horizon Smoothing will be."
+      bCommentBubbleVisible=True
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitchParameter_1"
+      A=(Expression=/Script/Engine.MaterialExpressionTextureSampleParameter2D'"M_Weapon_Master_USE:MaterialExpressionTextureSampleParameter2D_4"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=/Script/Engine.MaterialExpressionVectorParameter'"M_Weapon_Master_USE:MaterialExpressionVectorParameter_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      ParameterName="b_UsePatternMap?"
+      ExpressionGUID=9B1302694F238B35397D45BF9F43D188
+      Group="Pattern/Color"
+      MaterialExpressionEditorX=-2688
+      MaterialExpressionEditorY=-2064
+      MaterialExpressionGuid=B413399E4F83FD3196AEB7881F7C1CBF
+      Material=/Script/Engine.Material'"M_Weapon_Master_USE"'
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitchParameter_3"
+      A=(Expression=/Script/Engine.MaterialExpressionLinearInterpolate'"M_Weapon_Master_USE:MaterialExpressionLinearInterpolate_2"')
+      B=(Expression=/Script/Engine.MaterialExpressionMultiply'"M_Weapon_Master_USE:MaterialExpressionMultiply_5"')
+      ParameterName="b_HasCustomPattern/Color?"
+      ExpressionGUID=07EE1E5A451080BAD2ED21ACCA41F027
+      Group="Pattern/Color"
+      MaterialExpressionEditorX=-1216
+      MaterialExpressionEditorY=16
+      MaterialExpressionGuid=1D9469754A689BCB863A549F240F28F1
+      Material=/Script/Engine.Material'"M_Weapon_Master_USE"'
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitchParameter_5"
+      A=(Expression=/Script/Engine.MaterialExpressionClamp'"M_Weapon_Master_USE:MaterialExpressionClamp_16"')
+      B=(Expression=/Script/Engine.MaterialExpressionTextureSampleParameter2D'"M_Weapon_Master_USE:MaterialExpressionTextureSampleParameter2D_10"',OutputIndex=1,Mask=1,MaskR=1)
+      ParameterName="b_HasCustomPattern/Color?"
+      ExpressionGUID=9220EA2444B90A1B974816B6F772DAF5
+      Group="Pattern/Color"
+      MaterialExpressionEditorX=-1216
+      MaterialExpressionEditorY=256
+      MaterialExpressionGuid=1D9469754A689BCB863A549F240F28F1
+      Material=/Script/Engine.Material'"M_Weapon_Master_USE"'
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitchParameter_6"
+      A=(Expression=/Script/Engine.MaterialExpressionClamp'"M_Weapon_Master_USE:MaterialExpressionClamp_24"')
+      B=(Expression=/Script/Engine.MaterialExpressionTextureSampleParameter2D'"M_Weapon_Master_USE:MaterialExpressionTextureSampleParameter2D_10"',OutputIndex=2,Mask=1,MaskG=1)
+      ParameterName="b_HasCustomPattern/Color?"
+      ExpressionGUID=4E08E81141C516255675AEB28753886C
+      Group="Pattern/Color"
+      MaterialExpressionEditorX=-1216
+      MaterialExpressionEditorY=464
+      MaterialExpressionGuid=1D9469754A689BCB863A549F240F28F1
+      Material=/Script/Engine.Material'"M_Weapon_Master_USE"'
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitchParameter_7"
+      A=(Expression=/Script/Engine.MaterialExpressionLinearInterpolate'"M_Weapon_Master_USE:MaterialExpressionLinearInterpolate_3"')
+      B=(Expression=/Script/Engine.MaterialExpressionStaticSwitchParameter'"M_Weapon_Master_USE:MaterialExpressionStaticSwitchParameter_5"')
+      DefaultValue=True
+      ParameterName="b_UseHorizonSmoothing?"
+      ExpressionGUID=1321DAE54127257470B6E1B245EC8D7C
+      Group="Parameters"
+      MaterialExpressionEditorX=-304
+      MaterialExpressionEditorY=-144
+      MaterialExpressionGuid=C6FE60594B27A292B1793E86830BE8AF
+      Material=/Script/Engine.Material'"M_Weapon_Master_USE"'
+   End Object
+   Begin Object Name="MaterialExpressionSubtract_0"
+      A=(Expression=/Script/Engine.MaterialExpressionScalarParameter'"M_Weapon_Master_USE:MaterialExpressionScalarParameter_2"')
+      B=(Expression=/Script/Engine.MaterialExpressionOneMinus'"M_Weapon_Master_USE:MaterialExpressionOneMinus_0"')
+      MaterialExpressionEditorX=-2672
+      MaterialExpressionEditorY=-1536
+      MaterialExpressionGuid=76AB164E4B3640A9404100BA6001E279
+      Material=/Script/Engine.Material'"M_Weapon_Master_USE"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureCoordinate_0"
+      MaterialExpressionEditorX=-3634
+      MaterialExpressionEditorY=-2002
+      MaterialExpressionGuid=3A5097A442FE78B1B00D44B490028D30
+      Material=/Script/Engine.Material'"M_Weapon_Master_USE"'
+      bCollapsed=False
+   End Object
+   Begin Object Name="MaterialExpressionTextureSampleParameter2D_0"
+      ParameterName="NormalMap"
+      ExpressionGUID=04A68355464364D72A709C895BE1BEFD
+      Group="TextureMaps"
+      Texture=/Script/Engine.Texture2D'"/Game/Core/Weapons/Textures/KA74U/T_KA74U_NRM.T_KA74U_NRM"'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-768
+      MaterialExpressionEditorY=1104
+      MaterialExpressionGuid=6F9D2B584DFEA296D6B61695915C9148
+      Material=/Script/Engine.Material'"M_Weapon_Master_USE"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSampleParameter2D_10"
+      ParameterName="MaterialMask"
+      ExpressionGUID=A66B65E641C139B9FB5FC59518E6EDCE
+      Group="TextureMaps"
+      Texture=/Script/Engine.Texture2D'"/Game/Core/Weapons/Textures/KA74U/T_KA74U_M_MSK.T_KA74U_M_MSK"'
+      SamplerType=SAMPLERTYPE_LinearColor
+      MaterialExpressionEditorX=-1584
+      MaterialExpressionEditorY=464
+      MaterialExpressionGuid=ADAD17EB45C3C650A1F696853D1CE676
+      Material=/Script/Engine.Material'"M_Weapon_Master_USE"'
+      Desc="All the texture channels store different data.\n\nR= Roughness\nG= Metallic\nB= Ambient Occlusion\nA= Color/Pattern Mask"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSampleParameter2D_11"
+      ParameterName="MaterialMask"
+      ExpressionGUID=9D3E01984DAB29A6DF618A9ABA09412D
+      Group="TextureMaps"
+      Texture=/Script/Engine.Texture2D'"/Game/Core/Weapons/Textures/KA74U/T_KA74U_M_MSK.T_KA74U_M_MSK"'
+      SamplerType=SAMPLERTYPE_LinearColor
+      MaterialExpressionEditorX=-768
+      MaterialExpressionEditorY=1408
+      MaterialExpressionGuid=ADAD17EB45C3C650A1F696853D1CE676
+      Material=/Script/Engine.Material'"M_Weapon_Master_USE"'
+      Desc="All the texture channels store different data.\n\nR= Roughness\nG= Metallic\nB= Ambient Occlusion\nA= Color/Pattern Mask"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSampleParameter2D_33"
+      ParameterName="AlbedoMap"
+      ExpressionGUID=B7E5CEBA4B06FE460CCFE8A9FE5BD488
+      Group="TextureMaps"
+      Texture=/Script/Engine.Texture2D'"/Game/Core/Weapons/Textures/KA74U/T_KA74U_ALB.T_KA74U_ALB"'
+      MaterialExpressionEditorX=-2992
+      MaterialExpressionEditorY=-2400
+      MaterialExpressionGuid=ADEA57E54BF81E01D9F9868D6788BAA5
+      Material=/Script/Engine.Material'"M_Weapon_Master_USE"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSampleParameter2D_34"
+      ParameterName="AlbedoMap"
+      ExpressionGUID=95F1BDC74BE9E6C8384FA6BD49C1EB90
+      Group="TextureMaps"
+      Texture=/Script/Engine.Texture2D'"/Game/Core/Weapons/Textures/KA74U/T_KA74U_ALB.T_KA74U_ALB"'
+      MaterialExpressionEditorX=-1440
+      MaterialExpressionEditorY=64
+      MaterialExpressionGuid=ADEA57E54BF81E01D9F9868D6788BAA5
+      Material=/Script/Engine.Material'"M_Weapon_Master_USE"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSampleParameter2D_4"
+      ParameterName="PatternMap"
+      ExpressionGUID=F337576742AC918F635FD499D3D4F5AD
+      Group="TextureMaps"
+      Coordinates=(Expression=/Script/Engine.MaterialExpressionMultiply'"M_Weapon_Master_USE:MaterialExpressionMultiply_0"')
+      Texture=/Script/Engine.Texture2D'"/Game/Core/Weapons/Textures/Patterns/T_Stripes__Pattern.T_Stripes__Pattern"'
+      MaterialExpressionEditorX=-2992
+      MaterialExpressionEditorY=-2224
+      MaterialExpressionGuid=D3BB09274235522BAE572CB9BA8CA1A8
+      Material=/Script/Engine.Material'"M_Weapon_Master_USE"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSampleParameter2D_5"
+      ParameterName="MaterialMask"
+      ExpressionGUID=AF5B1FC14BB07AA9DE1F309C2AE67626
+      Group="TextureMaps"
+      Texture=/Script/Engine.Texture2D'"/Game/Core/Weapons/Textures/KA74U/T_KA74U_M_MSK.T_KA74U_M_MSK"'
+      SamplerType=SAMPLERTYPE_LinearColor
+      MaterialExpressionEditorX=-2992
+      MaterialExpressionEditorY=-160
+      MaterialExpressionGuid=ADAD17EB45C3C650A1F696853D1CE676
+      Material=/Script/Engine.Material'"M_Weapon_Master_USE"'
+      Desc="All the texture channels store different data.\n\nR= Roughness\nG= Metallic\nB= Ambient Occlusion\nA= Color/Pattern Mask"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSampleParameter2D_6"
+      ParameterName="MaterialMask"
+      ExpressionGUID=6E4896414836B38E552821B01505CBD7
+      Group="TextureMaps"
+      Texture=/Script/Engine.Texture2D'"/Game/Core/Weapons/Textures/KA74U/T_KA74U_M_MSK.T_KA74U_M_MSK"'
+      SamplerType=SAMPLERTYPE_LinearColor
+      MaterialExpressionEditorX=-2944
+      MaterialExpressionEditorY=-1520
+      MaterialExpressionGuid=ADAD17EB45C3C650A1F696853D1CE676
+      Material=/Script/Engine.Material'"M_Weapon_Master_USE"'
+      Desc="All the texture channels store different data.\n\nR= Roughness\nG= Metallic\nB= Ambient Occlusion\nA= Color/Pattern Mask"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSampleParameter2D_8"
+      ParameterName="MaterialMask"
+      ExpressionGUID=3F83BC714573469BEAA48E8CCD2493FC
+      Group="TextureMaps"
+      Texture=/Script/Engine.Texture2D'"/Game/Core/Weapons/Textures/KA74U/T_KA74U_M_MSK.T_KA74U_M_MSK"'
+      SamplerType=SAMPLERTYPE_LinearColor
+      MaterialExpressionEditorX=-3008
+      MaterialExpressionEditorY=-896
+      MaterialExpressionGuid=ADAD17EB45C3C650A1F696853D1CE676
+      Material=/Script/Engine.Material'"M_Weapon_Master_USE"'
+      Desc="All the texture channels store different data.\n\nR= Roughness\nG= Metallic\nB= Ambient Occlusion\nA= Color/Pattern Mask"
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_0"
+      DefaultValue=(R=1.000000,G=0.000000,B=0.000000,A=1.000000)
+      ParameterName="Color"
+      ExpressionGUID=B450A53A4A7C44B4831205A1F3B12F1C
+      Group="Pattern/Color"
+      MaterialExpressionEditorX=-2976
+      MaterialExpressionEditorY=-2032
+      MaterialExpressionGuid=1A5277CF4D947A07FACF93BC63060380
+      Material=/Script/Engine.Material'"M_Weapon_Master_USE"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_3"
+      DefaultValue=(R=1.000000,G=1.000000,B=1.000000,A=1.000000)
+      ParameterName="Albedo_Color"
+      ExpressionGUID=D8AEFF1845C904C4AE72B1830435B63D
+      Group="Parameters"
+      MaterialExpressionEditorX=-2704
+      MaterialExpressionEditorY=-2416
+      MaterialExpressionGuid=283DAE46423479CDA6FF6194504CB607
+      Material=/Script/Engine.Material'"M_Weapon_Master_USE"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_4"
+      DefaultValue=(R=1.000000,G=1.000000,B=1.000000,A=1.000000)
+      ParameterName="Albedo_Color"
+      ExpressionGUID=CB0A361C4CEA815BE30E7695C479A66A
+      Group="Parameters"
+      MaterialExpressionEditorX=-1616
+      MaterialExpressionEditorY=144
+      MaterialExpressionGuid=283DAE46423479CDA6FF6194504CB607
+      Material=/Script/Engine.Material'"M_Weapon_Master_USE"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   TwoSided=True
+   TranslucencyLightingMode=TLM_SurfacePerPixelLighting
+   bUsedWithSkeletalMesh=True
+   bUsedWithMeshParticles=True
+   bUsedWithStaticLighting=True
+   StateId=52592E924929161181AC1296365A26BE
+   ReferencedTextureGuids(0)=7FD69F8C40DD49AC6D0463B57BDA7931
+   ReferencedTextureGuids(1)=39686E034C1004887BFBE990CA87F31C
+   ReferencedTextureGuids(2)=B05384DF432FB758F465EEBD79B443C6
+   EditorOnlyData=/Script/Engine.MaterialEditorOnlyData'"M_Weapon_Master_USEEditorOnlyData"'
+   ThumbnailInfo=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   ParameterOverviewExpansion=(("-12Global Parameters", True),("-12Global Pattern/Color", True),("-12Global TextureMaps", True))
+   LightingGuid=F0EB52D94163F8311773D2A34A3F39D3
+End Object
